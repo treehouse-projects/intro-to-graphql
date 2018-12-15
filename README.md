@@ -11,7 +11,7 @@ To run the GraphQL examples provided in this repo, start with installing all of 
 npm install
 ```
 
-The examples are organized by the course stage and video. For example, to run the example for the 5th video in the 1st stage of the course, run the following command:
+The examples are organized by course stage and video. For example, to run the example for the 5th video in the 1st stage of the course, run the following command:
 
 
 ```
