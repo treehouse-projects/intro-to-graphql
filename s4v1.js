@@ -121,7 +121,7 @@ const resolvers = {
       return movies;
     },
     topMovieByRevenue: (root, args, context) => {
-      const moviesByRevenueDesc = movies.sort((movieA, movieB) => (movieA.revenue < movieB.revenue));
+      const moviesByRevenueDesc = movies.sort((movieA, movieB) => (movieB.revenue - movieA.revenue));
 
       return moviesByRevenueDesc[0];
     },
